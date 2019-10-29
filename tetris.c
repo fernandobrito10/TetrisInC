@@ -5,7 +5,7 @@ char tecla;
 int cont=0;
 
 int main() {
-    /*do {
+    do {
        tecla = getch();
        if(tecla=='q') {
         cont++;
@@ -37,15 +37,6 @@ int main() {
         break;
        }
     }while(tecla!='p');
-
-    return 0;*/
-    tecla = getch();
-    switch(tecla) {
-    case 37:
-        printf("esquerda\n");
-        break;
-    }
-       // printf("esquerda\n");
     return 0;
     system("pause");
 }
