@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <conio.h>
 
 char tecla;
 int cont=0;
@@ -38,7 +39,6 @@ int main() {
        }
     }while(tecla!='p');
     return 0;
-    system("pause");
 }
 
 int tspin() {
